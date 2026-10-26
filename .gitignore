@@ -1,0 +1,50 @@
+# Large data files
+patches/
+work_dirs/
+weights/
+v6_pth/
+logs/
+
+# Outputs: allow key paper figures, exclude large vis dirs and debug/patch files
+outputs/vis_E1_v7/
+outputs/vis_E2_v7/
+outputs/vis_E3_v7/
+outputs/patch_viz/
+outputs/debug_*.png
+
+# Raw WSI patient data (private, never committed)
+data/PATIENT_*/
+data/seg/
+data/zero/
+data/*.csv
+
+# CONCH library (public, clone separately from https://github.com/mahmoodlab/CONCH)
+CONCH/
+
+# Large binary files
+*.whl
+*.pth
+*.bin
+*.kfb
+*.mrxs
+*.tif
+*.tiff
+*.svs
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+._*

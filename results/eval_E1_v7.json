@@ -1,0 +1,26 @@
+{
+  "HE": {
+    "mDice": 98.46,
+    "mIoU": 96.96,
+    "bg_Dice": 98.5582,
+    "tumor_Dice": 98.3552,
+    "bg_IoU": 97.1573,
+    "tumor_IoU": 96.7636
+  },
+  "IHC": {
+    "mDice": 97.61,
+    "mIoU": 95.33,
+    "bg_Dice": 97.7835,
+    "tumor_Dice": 97.4391,
+    "bg_IoU": 95.6632,
+    "tumor_IoU": 95.006
+  },
+  "NCR": {
+    "mDice": 77.73,
+    "mIoU": 63.72,
+    "bg_Dice": 81.3873,
+    "tumor_Dice": 74.0755,
+    "bg_IoU": 68.6159,
+    "tumor_IoU": 58.8254
+  }
+}
